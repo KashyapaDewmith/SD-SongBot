@@ -1,6 +1,6 @@
-# SD Song Bot
+# kashyapa  Song Bot
 ##  🎹 A telegram bot that can download songs 🎸
-### Reach me on Telegram [🎹 Song Download Bot 🎸](http://t.me/SDSongDlBot)
+### Reach me on Telegram [🎹 Song Download Bot 🎸](https://t.me/cgs_officials)
 <p align="center">
   <img src="https://telegra.ph/file/b8e564454da50ddc80b59.jpg">
 </p>
