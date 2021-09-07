@@ -1,18 +1,18 @@
 #SDBOTs <https://t.me/SDBOTs_Inifinity>
 
 from pyrogram.types.bots_and_keyboards import reply_keyboard_markup
-from SDSongBot.plugins import *
+from kashyapa.plugins import *
 from pyrogram import idle, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from SDSongBot import SDbot as app
-from SDSongBot import LOGGER
+from kashyapa import SDbot as app
+from kashyapa import LOGGER
 
 pm_start_text = """
 Hey [{}](tg://user?id={}), I'm Song Downloader Bot 🎵
-😉 Just send me the song name you want to download.😋
-      eg:```/song Faded```
+�😍 Just send me the song name you want to download.😋
+      eg:```/song how you like that black pink```
       
-A bot by @SDBotsz 🇱🇰
+A bot by @IMkashyapaa 
 """
 
 @app.on_message(filters.command("start"))
@@ -25,10 +25,10 @@ async def start(client, message):
             [
                 [
                      InlineKeyboardButton(
-                        text="Channel 🔊", url="https://t.me/SDbotsz"
+                        text="Channel😎", url="https://t.me/cgs_officials"
                     ),
                     InlineKeyboardButton(
-                        text="Dev 🔥", url="https://t.me/Darkridersslk"
+                        text="Contact me 🔥", url="https://telegram.me/IMkashyapaa"
                     )
                 ]
             ]
@@ -39,5 +39,5 @@ async def start(client, message):
 
 
 app.start()
-LOGGER.info("✅ SDSongBot is online.")
+LOGGER.info("✅ Kashyapa Dewmith.")
 idle()
