@@ -1,4 +1,4 @@
-#SDBOTs <https://t.me/SDBOTs_Inifinity>
+#kashyapaBOTs <https://telegram.me/IMkashyapaa>
 
 from pyrogram.types.bots_and_keyboards import reply_keyboard_markup
 from kashyapa.plugins import *
