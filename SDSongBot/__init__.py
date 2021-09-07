@@ -1,4 +1,4 @@
-#SDBOTs <https://t.me/SDBOTs_Inifinity>
+#kashyapabots <https://https://t.me/cgs_officials>
 
 import logging
 from pyrogram import Client
