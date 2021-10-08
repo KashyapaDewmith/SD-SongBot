@@ -8,11 +8,11 @@ from kashyapa import SDbot as app
 from kashyapa import LOGGER
 
 pm_start_text = """
-Hey [{}](tg://user?id={}), I'm Song Downloader Bot 🎵
-�😍 Just send me the song name you want to download.😋
-      eg:```/song how you like that black pink```
+𝐇𝐞𝐲👋 [{}](tg://user?id={}), 𝐈'𝐦 𝐏𝐨𝐰𝐞𝐫𝐟𝐮𝐥 𝐒𝐨𝐧𝐠 𝐝𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 𝐛𝐨𝐭 🎵
+🎧Just send me the song name you want to download.🎶
+      eg:```/song Pretty savage blackpink```
       
-A bot by @IMkashyapaa 
+𝐀 𝐛𝐨𝐭 𝐛𝐲🌷 @IMkashyapaa 
 """
 
 @app.on_message(filters.command("start"))
@@ -25,10 +25,10 @@ async def start(client, message):
             [
                 [
                      InlineKeyboardButton(
-                        text="Channel😎", url="https://t.me/cgs_officials"
+                        text="𝐃𝐞𝐯🌷", url="https://t.me/IMkashyapaa"
                     ),
                     InlineKeyboardButton(
-                        text="Contact me 🔥", url="https://telegram.me/IMkashyapaa"
+                        text="𝐬𝐮𝐩𝐩𝐨𝐫𝐭 𝐮𝐬🎶", url="https://telegram.me/Cgs_official"
                     )
                 ]
             ]
